@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
+part of '../home/home_page.dart';
 
-class HomeScaffold extends StatelessWidget {
-  const HomeScaffold({super.key});
+class _Scaffold extends StatelessWidget {
+  const _Scaffold({super.key});
 
   @override
   Widget build(BuildContext context) {
