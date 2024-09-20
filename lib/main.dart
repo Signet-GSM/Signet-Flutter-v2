@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:signet/views/splash_scaffold.dart';
+import 'package:signet/views/splash/splash_scaffold.dart';
 
 void main() {
   runApp(const MyApp());
