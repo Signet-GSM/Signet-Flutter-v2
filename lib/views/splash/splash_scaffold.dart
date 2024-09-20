@@ -1,10 +1,19 @@
-import 'package:flutter/material.dart';
+part of '../splash/splash_page.dart';
 
-class SplashScaffold extends StatelessWidget {
-  const SplashScaffold({super.key});
+class _Scaffold extends StatelessWidget {
+  const _Scaffold({
+    super.key,
+    required this.splashLogo,
+  });
+
+  final Widget splashLogo;
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      body: Center(
+        child: splashLogo,
+      ),
+    );
   }
 }
