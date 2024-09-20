@@ -12,7 +12,6 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('splash');
     return const _Scaffold(
       splashLogo: _Logo(),
     );

@@ -1,7 +1,7 @@
 part of '../splash/splash_page.dart';
 
 class _Logo extends StatefulWidget {
-  const _Logo({super.key});
+  const _Logo();
 
   @override
   State<_Logo> createState() => _LogoState();
