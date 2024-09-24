@@ -1,7 +1,7 @@
 part of '../home/home_page.dart';
 
 class _Header extends StatelessWidget {
-  const _Header({super.key});
+  const _Header();
 
   @override
   Widget build(BuildContext context) {
@@ -12,6 +12,7 @@ class _Header extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
+            decoration: const BoxDecoration(),
             child: SvgPicture.asset(
               'assets/images/main_logo.svg',
               width: 108,

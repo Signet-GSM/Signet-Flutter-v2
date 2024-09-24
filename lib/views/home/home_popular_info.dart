@@ -1,7 +1,7 @@
 part of '../home/home_page.dart';
 
 class _PopularGalleryInfo extends StatelessWidget {
-  const _PopularGalleryInfo({super.key});
+  const _PopularGalleryInfo();
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class _PopularGalleryInfo extends StatelessWidget {
 }
 
 class _PopularBoardInfo extends StatelessWidget {
-  const _PopularBoardInfo({super.key});
+  const _PopularBoardInfo();
 
   @override
   Widget build(BuildContext context) {
