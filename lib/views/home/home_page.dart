@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
       header: _Header(),
       popularGalleryInfo: _PopularGalleryInfo(),
       popularGalleryCard: _PopularGalleryCard(),
-      addGalleryCard: _PopularGalleryCard(),
+      addGalleryCard: _AddGalleryCard(),
       popularBoardInfo: _PopularBoardInfo(),
       popularBoardCard: _PopularGalleryCard(),
     );

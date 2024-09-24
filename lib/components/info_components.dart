@@ -13,6 +13,7 @@ class Info extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: const BoxDecoration(),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -28,6 +29,7 @@ class Info extends StatelessWidget {
           IconButton(
             onPressed: () => onPressed,
             icon: Container(
+              decoration: const BoxDecoration(),
               child: const Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
