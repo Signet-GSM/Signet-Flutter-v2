@@ -33,7 +33,14 @@ class _LogoState extends State<_Logo> with TickerProviderStateMixin {
       () {
         Navigator.pushAndRemoveUntil(
           context,
-          MaterialPageRoute(builder: (builder) => const HomePage()),
+          PageRouteBuilder(
+            pageBuilder: (_, __, ___) => const HomePage(),
+            transitionDuration: const Duration(milliseconds: 250),
+            transitionsBuilder: (_, a, __, c) => FadeTransition(
+              opacity: a,
+              child: c,
+            ),
+          ),
           (predicate) => false,
         );
       },
