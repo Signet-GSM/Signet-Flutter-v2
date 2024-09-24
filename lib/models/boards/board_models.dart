@@ -1,25 +1,25 @@
 class BoardModels {
   final int id;
   final int gallery;
-  final bool is_admin;
+  final bool isAdmin;
   final String title;
   final String content;
   final String name;
   final int like;
   final int dislike;
-  final String created_at;
+  final String createdAt;
   late final String? password;
 
   BoardModels({
     required this.id,
     required this.gallery,
-    required this.is_admin,
+    required this.isAdmin,
     required this.title,
     required this.content,
     required this.name,
     required this.like,
     required this.dislike,
-    required this.created_at,
+    required this.createdAt,
     this.password,
   });
 
@@ -27,13 +27,13 @@ class BoardModels {
     return BoardModels(
       id: json['id'],
       gallery: json['gallery'],
-      is_admin: json['is_admin'],
+      isAdmin: json['is_admin'],
       title: json['title'],
       content: json['content'],
       name: json['name'],
       like: json['like'],
       dislike: json['dislike'],
-      created_at: json['created_at'],
+      createdAt: json['created_at'],
     );
   }
 
