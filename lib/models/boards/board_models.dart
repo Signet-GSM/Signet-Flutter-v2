@@ -23,6 +23,17 @@ class BoardModels {
     this.password,
   });
 
+  BoardModels.init()
+      : id = 0,
+        gallery = 0,
+        isAdmin = true,
+        title = '제목으로 제목으로제목으로',
+        content = '이렇쿵저렁쿵이렇쿵저렁쿵 이러이러 해서 이렁쿵 저렁쿵 이러해서 이러....',
+        name = '홍길동',
+        like = 100,
+        dislike = 50,
+        createdAt = '2024-09-03T13:56:42.362Z';
+
   factory BoardModels.fromJson(Map<String, dynamic> json) {
     return BoardModels(
       id: json['id'],
