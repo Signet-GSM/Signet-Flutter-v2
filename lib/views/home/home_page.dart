@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:signet/components/board_card_components.dart';
+import 'package:signet/components/gallery_card_components.dart';
 import 'package:signet/components/info_components.dart';
+import 'package:signet/models/boards/board_models.dart';
+import 'package:signet/models/boards/gallery_models.dart';
 part '../home/home_scaffold.dart';
 part '../home/home_header.dart';
 part '../home/home_popular_card.dart';
@@ -18,7 +22,7 @@ class HomePage extends StatelessWidget {
       popularGalleryCard: _PopularGalleryCard(),
       addGalleryCard: _AddGalleryCard(),
       popularBoardInfo: _PopularBoardInfo(),
-      popularBoardCard: _PopularGalleryCard(),
+      popularBoardCard: _PopularBoardCard(),
     );
   }
 }
