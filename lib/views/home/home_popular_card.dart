@@ -37,7 +37,7 @@ class _PopularGalleryCard extends StatelessWidget {
 }
 
 class _PopularBoardCard extends StatelessWidget {
-  const _PopularBoardCard({super.key});
+  const _PopularBoardCard();
 
   @override
   Widget build(BuildContext context) {

@@ -11,10 +11,12 @@ class GalleryCardComponents extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: const BoxDecoration(),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
+            decoration: const BoxDecoration(),
             child: Row(
               children: [
                 Container(
@@ -37,6 +39,7 @@ class GalleryCardComponents extends StatelessWidget {
             ),
           ),
           Container(
+            decoration: const BoxDecoration(),
             child: Row(
               children: [
                 Text(
