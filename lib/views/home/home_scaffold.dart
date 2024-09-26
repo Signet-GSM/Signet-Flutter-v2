@@ -22,25 +22,27 @@ class _Scaffold extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          header,
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 17),
-            child: Column(
-              children: [
-                const SizedBox(height: 150),
-                popularGalleryInfo,
-                const SizedBox(height: 18),
-                popularGalleryCard,
-                const SizedBox(height: 42),
-                addGalleryCard,
-                const SizedBox(height: 42),
-                popularBoardInfo,
-                const SizedBox(height: 18),
-                popularBoardCard,
-                const SizedBox(height: 34),
-              ],
+          SingleChildScrollView(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 17, vertical: 0),
+              child: Column(
+                children: [
+                  const SizedBox(height: 150),
+                  popularGalleryInfo,
+                  const SizedBox(height: 18),
+                  popularGalleryCard,
+                  const SizedBox(height: 42),
+                  addGalleryCard,
+                  const SizedBox(height: 42),
+                  popularBoardInfo,
+                  const SizedBox(height: 18),
+                  popularBoardCard,
+                  const SizedBox(height: 34),
+                ],
+              ),
             ),
           ),
+          header,
         ],
       ),
     );

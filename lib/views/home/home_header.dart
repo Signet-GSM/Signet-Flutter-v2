@@ -6,8 +6,9 @@ class _Header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.fromLTRB(0, 60, 0, 0),
-      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 6),
+      width: double.infinity,
+      decoration: const BoxDecoration(color: Colors.white),
+      padding: const EdgeInsets.only(left: 24, right: 24, top: 60, bottom: 6),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
