@@ -27,7 +27,7 @@ class Info extends StatelessWidget {
             ),
           ),
           IconButton(
-            onPressed: () => onPressed,
+            onPressed: onPressed,
             icon: Container(
               decoration: const BoxDecoration(),
               child: const Row(
