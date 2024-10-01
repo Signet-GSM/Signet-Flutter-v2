@@ -10,7 +10,7 @@ class _PopularGalleryInfo extends StatelessWidget {
       onPressed: () => Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (builder) => const HomePage(),
+          builder: (builder) => const PopularGalleryPage(),
         ),
       ),
     );
