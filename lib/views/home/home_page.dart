@@ -5,6 +5,7 @@ import 'package:signet/components/gallery_card_components.dart';
 import 'package:signet/components/info_components.dart';
 import 'package:signet/models/boards/board_models.dart';
 import 'package:signet/models/boards/gallery_models.dart';
+import 'package:signet/views/popular/board/board_page.dart';
 import 'package:signet/views/popular/gallery/gallery_page.dart';
 part '../home/home_scaffold.dart';
 part '../home/home_header.dart';
