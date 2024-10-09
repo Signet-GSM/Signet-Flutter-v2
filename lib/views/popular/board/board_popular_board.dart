@@ -1,7 +1,7 @@
 part of './board_page.dart';
 
 class _PopularBoard extends StatelessWidget {
-  const _PopularBoard({super.key});
+  const _PopularBoard();
 
   @override
   Widget build(BuildContext context) {

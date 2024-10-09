@@ -1,7 +1,7 @@
 part of './gallery_page.dart';
 
 class _PopularGallery extends StatelessWidget {
-  const _PopularGallery({super.key});
+  const _PopularGallery();
 
   @override
   Widget build(BuildContext context) {
