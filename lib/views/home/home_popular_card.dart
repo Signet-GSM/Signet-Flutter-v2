@@ -26,7 +26,7 @@ class _PopularGalleryCard extends StatelessWidget {
           gallery: GalleryModels.init(),
         ),
         separatorBuilder: (context, index) => const Divider(
-          color: Color.fromARGB(255, 202, 202, 202),
+          color: Color(0xffe8e8e8),
           thickness: 1,
           height: 30,
         ),
