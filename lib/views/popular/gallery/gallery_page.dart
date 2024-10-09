@@ -13,7 +13,7 @@ class PopularGalleryPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const _Scaffold(
       header: _Header(),
-      popular_gallery: _PopularGallery(),
+      popularGallery: _PopularGallery(),
     );
   }
 }

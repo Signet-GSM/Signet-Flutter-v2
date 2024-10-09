@@ -13,7 +13,7 @@ class PopularBoardPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const _Scaffold(
       header: _Header(),
-      popular_board: _PopularBoard(),
+      popularBoard: _PopularBoard(),
     );
   }
 }

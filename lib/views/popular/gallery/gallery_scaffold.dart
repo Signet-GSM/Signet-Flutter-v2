@@ -3,16 +3,16 @@ part of './gallery_page.dart';
 class _Scaffold extends StatelessWidget {
   const _Scaffold({
     required this.header,
-    required this.popular_gallery,
+    required this.popularGallery,
   });
   final PreferredSizeWidget header;
-  final Widget popular_gallery;
+  final Widget popularGallery;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: header,
-      body: popular_gallery,
+      body: popularGallery,
     );
   }
 }
