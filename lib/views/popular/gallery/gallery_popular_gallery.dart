@@ -12,10 +12,10 @@ class _PopularGallery extends StatelessWidget {
         rank: index,
         gallery: GalleryModels.init(),
       ),
-      separatorBuilder: (context, index-1) => const Divider(
-        color: Color.fromARGB(255, 202, 202, 202),
+      separatorBuilder: (context, index) => const Divider(
+        color: Color(0xffe8e8e8),
         thickness: 1,
-        height: 30,
+        height: 20,
       ),
       itemCount: 100,
     );
