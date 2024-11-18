@@ -60,9 +60,9 @@ class _LogoState extends State<_Logo> with TickerProviderStateMixin {
       animation: _curvedAnimation,
       builder: (context, child) {
         return Opacity(
-          opacity: _animationController.value,
+          opacity: _curvedAnimation.value,
           child: Transform.translate(
-            offset: Offset(_curvedAnimation.value * 80 - 80, 0),
+            offset: Offset(_curvedAnimation.value * 80 - 80, 0), // animation.value는 0에서 1로 변환됨 한마디로 1 * 80 - 80 = 0
             child: SvgPicture.asset(
               'assets/images/splash_logo.svg',
             ),
