@@ -20,7 +20,12 @@ class _Header extends StatelessWidget {
             ),
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (builder) => const SearchPage(),
+              ),
+            ),
             icon: SvgPicture.asset(
               'assets/images/search_icon.svg',
               width: 24,
