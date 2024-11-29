@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:signet/data_sources/time_diff_display.dart';
+import 'package:signet/utils/time_diff_display.dart';
 import 'package:signet/models/boards/board_models.dart';
 
 class BoardCardComponents extends StatelessWidget {

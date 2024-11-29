@@ -7,6 +7,7 @@ import 'package:signet/models/boards/board_models.dart';
 import 'package:signet/models/boards/gallery_models.dart';
 import 'package:signet/views/popular/board/board_page.dart';
 import 'package:signet/views/popular/gallery/gallery_page.dart';
+import 'package:signet/views/search/search_page.dart';
 part '../home/home_scaffold.dart';
 part '../home/home_header.dart';
 part '../home/home_popular_card.dart';
