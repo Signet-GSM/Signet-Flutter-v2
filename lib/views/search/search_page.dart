@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 part './search_scaffold.dart';
 part './search_header.dart';

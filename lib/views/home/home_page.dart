@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:signet/components/board_card_components.dart';
-import 'package:signet/components/complete_button_components.dart';
 import 'package:signet/components/gallery_card_components.dart';
 import 'package:signet/components/info_components.dart';
 import 'package:signet/models/boards/board_models.dart';

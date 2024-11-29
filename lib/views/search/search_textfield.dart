@@ -1,7 +1,7 @@
 part of './search_page.dart';
 
 class _Textfield extends StatelessWidget {
-  _Textfield({super.key});
+  _Textfield();
 
   final TextEditingController _textController = TextEditingController();
 
